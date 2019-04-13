@@ -17,7 +17,7 @@
 	<div class="wrapper">
 		<div class="main_header_background">
 			<div class="main_header">
-				<div class="name">#your name</div>
+				<div class="name">Hao Tran</div>
 				<ul class="menu_bar">
 					<li><a href="contact.html"><div class="menu_button">Contact</div></a></li>
 					<li><a href="portfolio.html"><div class="menu_button">Portfolio</div></a></li>
@@ -29,17 +29,18 @@
 			<div class="title">Contact</div>
 			<hr/>
 			<div class="input_form">
-				<form action="/action_page.php">
-					<p>Name</p>
+				<form action="mailto:hao.allen.tran@gmail.com" method="post" enctype="text/plain">
+					<div class="contact_tag">Name</div>
 					<label for="name"></label>
 					<input type="text" id="name" name="name" placeholder="Name">
-					<p>Email</p>
+					<div class="contact_tag">Email</div>
 					<label for="email"></label>
-					<input type="text" id="email" name="email" placeholder="Email">
+					<input type="email" id="email" name="email" placeholder="Email">
+					<div class="contact_tag">Message</div>
+					<textarea name="message" placeholder="Message"></textarea>
+					<input type="submit" value="Submit">
 				</form>
-				<p>Message</p>
-				<textarea name="message" placeholder="Message"></textarea>
-				<input type="submit" value="Submit">
+
 			</div>
 		</div>
 	</div>
