@@ -98,6 +98,9 @@ hr {
 }
 .main_content{
 	width: 960px;
+	height: auto;
+	overflow: auto;
+	padding-bottom: 20px;
 	margin: 30px auto 60px auto;
 	background-color: #ffffff;
 	border-color: #dddddd;
